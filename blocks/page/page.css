@@ -2,9 +2,10 @@
   outline: 1px solid red;
 }
 .page {
-  max-width: 1280px;
+  max-width: 1184px;
+  min-width: 320px; /*288?*/
+  width: calc(100% - 48px * 2);
   margin: 0 auto;
-  background-color: #2a2c2f;
   font-family: Inter, Arial, sans-serif;
   color: #fff;
 }
