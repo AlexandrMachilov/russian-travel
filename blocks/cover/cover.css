@@ -2,3 +2,32 @@
   margin: 0;
   padding-top: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    max-width: 1279px;
+    min-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding-top: 90px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    max-width: 1023px;
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding-top: 66px;
+    width: 100%;
+    margin: auto;
+    max-width: 767px;
+    min-width: 320px;
+  }
+}

@@ -1,11 +1,28 @@
-* {
-  outline: 1px solid red;
-}
 .page {
   max-width: 1184px;
-  min-width: 320px; /*288?*/
+  min-width: 320px;
   width: calc(100% - 48px * 2);
   margin: 0 auto;
   font-family: Inter, Arial, sans-serif;
   color: #fff;
+}
+
+@media screen and (max-width: 1279px) {
+  .page {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    max-width: 720px;
+    width: calc(100% - 24px * 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 320px;
+    width: 100%;
+  }
 }
