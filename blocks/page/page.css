@@ -1,28 +1,8 @@
 .page {
-  max-width: 1184px;
+  max-width: 1280px;
   min-width: 320px;
-  width: calc(100% - 48px * 2);
+  width: 100%;
   margin: 0 auto;
-  font-family: Inter, Arial, sans-serif;
+  font-family: "Inter";
   color: #fff;
-}
-
-@media screen and (max-width: 1279px) {
-  .page {
-    max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .page {
-    max-width: 720px;
-    width: calc(100% - 24px * 2);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page {
-    max-width: 320px;
-    width: 100%;
-  }
 }

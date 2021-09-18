@@ -1,8 +1,7 @@
 .footer {
-  margin: 0;
-  padding-top: 92px;
-  padding-bottom: 24px;
-  width: 100%;
+  width: calc(100% - 48px * 2);
+  margin: 0 auto;
+  padding: 92px 0 24px;
   min-height: 18px;
   display: flex;
   flex-direction: row;
@@ -12,6 +11,7 @@
 @media screen and (max-width: 1023px) {
   .footer {
     padding-top: 88px;
+    width: calc(100% - 24px * 2);
   }
 }
 
@@ -20,8 +20,6 @@
     padding-top: 64px;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 186px;
-    min-height: 310px;
     margin-left: 16px;
   }
 }

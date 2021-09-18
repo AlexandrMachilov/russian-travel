@@ -1,35 +1,25 @@
 .lead__image {
   max-width: 984px;
+  width: 100%;
   min-height: 615px;
   object-fit: cover;
-  margin-bottom: 8px;
+  margin: 0 auto 8px;
 }
 
 @media screen and (max-width: 1279px) {
   .lead__image {
-    max-width: 928px;
     min-height: 580px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead__image {
-    min-width: 768px;
-    max-width: 1023px;
     min-height: 480px;
-    width: 100vw; /*картинка занимает всю ширину экрана*/
-    margin-left: calc(-50vw + 50%);
-    /*чтобы картинка выходила за пределы родительского блока*/
-    /*margin-right: calc(-50vw + 50%);*/ /*ей добавляется размер с помощью margin*/
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__image {
-    max-width: 320px;
     min-height: 200px;
-    margin: 0;
-    width: 100%;
-    min-width: 1px; /*отмена значения min-width из предыдущего медиа запроса*/
   }
 }
