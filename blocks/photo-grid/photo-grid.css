@@ -1,6 +1,5 @@
 .photo-grid {
   width: calc(100% - 48px * 2);
-  min-height: 671px;
   margin: 0 auto;
   padding-top: 92px;
   display: grid;
@@ -34,7 +33,7 @@
     width: calc(100% - 16px * 2);
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
-    column-gap: 12px;
+    row-gap: 12px;
     padding-top: 64px;
   }
 }
