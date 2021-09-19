@@ -1,7 +1,7 @@
 .card__url {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 767px) {
