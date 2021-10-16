@@ -4,4 +4,11 @@
   line-height: 1.63;
   color: #ffffff;
   margin: 0 0 33px;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 920px) {
+  .intro__text {
+    max-width: none;
+  }
 }
